@@ -129,6 +129,66 @@ class Sidebar extends React.Component {
                 this.props.dispatch(changeActiveSidebarItem(activeItem))
               }
               activeItem={this.props.activeItem}
+              header="KYC Questionnaire"
+              iconElement={<LayersIcon />}
+              link="/app/kyc-questionnaire"
+              isHeader
+              iconName="flaticon-database-1"
+              index="packages"
+            />
+            <LinksGroup
+              onActiveSidebarItemChange={(activeItem) =>
+                this.props.dispatch(changeActiveSidebarItem(activeItem))
+              }
+              activeItem={this.props.activeItem}
+              header="Risk Questionnaire"
+              iconElement={<LayersIcon />}
+              link="/app/risk-questionnaire"
+              isHeader
+              iconName="flaticon-database-1"
+              index="packages"
+            />
+            <LinksGroup
+              onActiveSidebarItemChange={(activeItem) =>
+                this.props.dispatch(changeActiveSidebarItem(activeItem))
+              }
+              activeItem={this.props.activeItem}
+              header="Special Due Diligence"
+              iconElement={<LayersIcon />}
+              link="/app/special-due-diligence"
+              isHeader
+              iconName="flaticon-database-1"
+              index="packages"
+            />
+            <LinksGroup
+              onActiveSidebarItemChange={(activeItem) =>
+                this.props.dispatch(changeActiveSidebarItem(activeItem))
+              }
+              activeItem={this.props.activeItem}
+              header="FATCA"
+              iconElement={<LayersIcon />}
+              link="/app/FATCA"
+              isHeader
+              iconName="flaticon-database-1"
+              index="packages"
+            />
+             <LinksGroup
+              onActiveSidebarItemChange={(activeItem) =>
+                this.props.dispatch(changeActiveSidebarItem(activeItem))
+              }
+              activeItem={this.props.activeItem}
+              header="Documents"
+              iconElement={<LayersIcon />}
+              link="/app/documents"
+              isHeader
+              iconName="flaticon-database-1"
+              index="packages"
+            />
+            <LinksGroup
+              onActiveSidebarItemChange={(activeItem) =>
+                this.props.dispatch(changeActiveSidebarItem(activeItem))
+              }
+              activeItem={this.props.activeItem}
               header="Dashboard"
               isHeader
               iconName="flaticon-home"

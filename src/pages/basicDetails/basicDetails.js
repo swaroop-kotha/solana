@@ -27,27 +27,7 @@ class BasicDetails extends React.Component {
          
           <HeaderProfile />   
           <Widget settings refresh close>
-            <div className="mb-4">
-              <div className="row align-items-center justify-content-between border-bottom pb-3">
-                <div className="col-auto">
-                  <h4 className="sec__hdr">Basic Details</h4>
-                </div>
-                <div className="col-auto">
-                  <div className="form-row">
-                    <div className="col-auto">
-                      <Button color="primary" type="submit" className="btn-sm mr-xs">
-                        Manage Access
-                      </Button>
-                    </div>
-                    <div className="col-auto">
-                      <Button color="primary" type="submit" className="btn-sm mr-xs">
-                        Provide Consent
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          
             <FormGroup>
               <Form>
                 <Row>

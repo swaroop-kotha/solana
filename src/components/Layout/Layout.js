@@ -65,6 +65,14 @@ import { DashboardThemes } from '../../reducers/layout';
 import ProductEdit from '../../pages/management/components/productEdit';
 import BreadcrumbHistory from '../BreadcrumbHistory';
 import BasicDetails from '../../pages/basicDetails/basicDetails';
+import LegalHierarchy from '../LegalHierarchy/LegalHierarchy';
+import KycQuestionnaire from '../KycQuestionnaire/KycQuestionnaire';
+import RiskQuestionnaire from '../RiskQuestionnaire/RiskQuestionnaire';
+import SpecialDue from '../SpecialDue/SpecialDue';
+import Fatca from '../Fatca/Fatca';
+import Documents from '../Documents/Documents';
+import MyClients from '../MyClients/MyClients';
+import MyProfile from '../MyProfile/MyProfile';
 
 class Layout extends React.Component {
   static propTypes = {
@@ -183,7 +191,14 @@ class Layout extends React.Component {
                     <Route path="/app/chat" exact component={ChatPage} />
                     <Route path="/app/package" exact component={Package} />
                     <Route path="/app/basic-details" exact component={BasicDetails} />
-                    <Route path="/app/legal-hierarchy" exact component={BasicDetails} />
+                    <Route path="/app/legal-hierarchy" exact component={LegalHierarchy} />
+                    <Route path="/app/kyc-questionnaire" exact component={KycQuestionnaire} />
+                    <Route path="/app/risk-questionnaire" exact component={RiskQuestionnaire} />
+                    <Route path="/app/special-due-diligence" exact component={SpecialDue} />
+                    <Route path="/app/FATCA" exact component={Fatca} />
+                    <Route path="/app/documents" exact component={Documents} />
+                    <Route path="/app/my-clients" exact component={MyClients} />
+                    <Route path="/app/my-profile" exact component={MyProfile} />
                     <Route path="/app/forms" exact render={() => <Redirect to="/app/forms/elements" />} />
                     <Route path="/app/forms/elements" exact component={FormsElements} />
                     <Route path="/app/forms/validation" exact component={FormsValidation} />

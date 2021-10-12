@@ -332,3 +332,62 @@ table > thead > tr > th {
 .comp__title{
   font-weight: 600!important;
 }
+
+.legal__Table thead th{
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.legal__Table  td{
+}
+
+.list-group-sortable .list-group-item {
+  border: 1px solid transparent!important;
+  border-bottom: 1px solid #eee!important;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.fatca__Table  thead th{
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.fatca__Table  td{
+  font-weight: 500;
+}
+
+.clients__sec{
+  background-color: #00a2ff;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.cli__hdr{
+  font-weight: 600;
+}
+
+.input__search{
+  height: 45px;
+}
+
+.search__icon{
+  position: absolute;
+    width: 18px;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.modal-header{
+  background-color: #00a2ff;
+  color: #ffffff;
+}
+
+.input__modal{
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
